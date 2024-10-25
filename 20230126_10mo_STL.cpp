@@ -30,7 +30,8 @@ int main()
 
 	// First in First out (FIFO)
 	queue<int> cola;
-
+	int cnt = 0;
+	
 	cola.push(3);
 	cola.push(2);
 	cola.push(1);
